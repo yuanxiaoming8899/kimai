@@ -1,101 +1,78 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/kimai/images/main/repository-header.png" alt="Kimai logo">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+    <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/kimai/images/main/repository-header.png"><img src="https://raw.githubusercontent.com/kimai/images/main/repository-header.png" alt="基迈标志" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-    <a href="https://github.com/kimai/kimai/actions"><img alt="CI Status" src="https://github.com/kimai/kimai/actions/workflows/testing.yaml/badge.svg"></a>
-    <a href="https://codecov.io/gh/kimai/kimai"><img alt="Code Coverage" src="https://codecov.io/gh/kimai/kimai/branch/main/graph/badge.svg"></a>
-    <a href="https://packagist.org/packages/kimai/kimai"><img alt="Latest stable version" src="https://poser.pugx.org/kimai/kimai/v/stable"></a>
-    <a href="https://www.gnu.org/licenses/agpl-3.0.en.html"><img alt="License" src="https://poser.pugx.org/kimai/kimai/license"></a>
-    <a href="https://phpc.social/@kimai" rel="me"><img alt="Mastodon" src="https://img.shields.io/badge/toot-%40kimai-8c8dff"></a>
+<p align="center" dir="auto">
+    <a href="https://github.com/kimai/kimai/actions"><img alt="CI状态" src="https://github.com/kimai/kimai/actions/workflows/testing.yaml/badge.svg" style="max-width: 100%;"></a>
+    <a href="https://codecov.io/gh/kimai/kimai" rel="nofollow"><img alt="代码覆盖率" src="https://camo.githubusercontent.com/a3905d94ae56ed0427e84d702b0ee81eaf78769362d1b341b831e5c47a373cab/68747470733a2f2f636f6465636f762e696f2f67682f6b696d61692f6b696d61692f6272616e63682f6d61696e2f67726170682f62616467652e737667" data-canonical-src="https://codecov.io/gh/kimai/kimai/branch/main/graph/badge.svg" style="max-width: 100%;"></a>
+    <a href="https://packagist.org/packages/kimai/kimai" rel="nofollow"><img alt="最新稳定版本" src="https://camo.githubusercontent.com/ff2fb01d578893a408457772100a8ccae45bdcb442ab1858c410f257662d0871/68747470733a2f2f706f7365722e707567782e6f72672f6b696d61692f6b696d61692f762f737461626c65" data-canonical-src="https://poser.pugx.org/kimai/kimai/v/stable" style="max-width: 100%;"></a>
+    <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" rel="nofollow"><img alt="执照" src="https://camo.githubusercontent.com/6c8641fdfc28a03f7ccc7ad780519bacf7a4743bf27b1953fb211e5399854aa7/68747470733a2f2f706f7365722e707567782e6f72672f6b696d61692f6b696d61692f6c6963656e7365" data-canonical-src="https://poser.pugx.org/kimai/kimai/license" style="max-width: 100%;"></a>
+    <a href="https://phpc.social/@kimai" rel="nofollow"><img alt="乳齿象" src="https://camo.githubusercontent.com/400e67e71d54a21d035ca0dd22072e6be2fdcf120772c591850561687d00dbbb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f746f6f742d2534306b696d61692d386338646666" data-canonical-src="https://img.shields.io/badge/toot-%40kimai-8c8dff" style="max-width: 100%;"></a>
 </p>
-
-<h1 align="center">Kimai - time-tracker</h1>
-
-Kimai is a professional grade time-tracking application, free and open-source. 
-It handles use-cases of freelancers as well as companies with dozens or hundreds of users. 
-Kimai was build to track your project times and ships with many advanced features, including but not limited to:
-
-JSON API, invoicing, data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones - multi-language ([over 30 translations existing](https://hosted.weblate.org/projects/kimai/)!),
-authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP, customizable role and team permissions, responsive design,
-user/customer/project specific rates, advanced search & filtering, money and time budgets, advanced reporting, support for [plugins](https://www.kimai.org/store/)
-and so much more.
-
-### Versions
-
-There are two [versions](https://www.kimai.org/documentation/versions.html) of Kimai existing:
-
-- [Version 2](https://github.com/kimai/kimai) — the current stable release (PHP 8.1+)
-- [Version 1](https://github.com/kimai/kimai/tree/1.x) — EOL since mid of 2023 (PHP 7.4) 
-
-Do **NOT** use Version 1, it won't get any more updates!
-
-### Links
-
-- [Home](https://www.kimai.org) — Kimai project homepage
-- [Blog](https://www.kimai.org/blog/) — Read the latest news
-- [Documentation](https://www.kimai.org/documentation/) — Learn how to use Kimai
-
-### Requirements
-
-- PHP 8.1.3 minimum
-- MariaDB or MySQL
-- A webserver and subdomain (subdirectory is not supported)
-- PHP extensions: `gd`, `intl`, `json`, `mbstring`, `pdo`, `tokenizer`, `xml`, `xsl`, `zip`
-
-Support for PHP 8.2 and 8.3.
-
-## Installation
-
-- [Native setup](https://www.kimai.org/documentation/installation.html) — with Git and Composer
-- [Docker](https://hub.docker.com/r/kimai/kimai2) — containerized by @tobybatch
-
-There are also documentations for:
-- [developer setups](https://www.kimai.org/documentation/developers.html) — on your local machine
-- [shared hostings](https://www.kimai.org/documentation/installation.html#shared-hosting) — the least favorable option
-- [Synology](https://www.kimai.org/documentation/synology.html) — you could try to host the Docker version instead 
-- [1-click installer](https://www.kimai.org/documentation/installation.html#hosting-and-1-click-installations) — hosted environments 
-
-And if you don't want to host Kimai, you can use [the Cloud version](https://www.kimai.cloud/) of it.
-
-### Updating Kimai
-
-- [Update Kimai](https://www.kimai.org/documentation/updates.html) — get the latest version
-- [UPGRADING guide](UPGRADING.md) — version specific steps
-
-### Plugins
-
-- [Plugin marketplace](https://www.kimai.org/store/) — find existing plugins here
-- [Developer documentation](https://www.kimai.org/documentation/developers.html) — how to create a plugin
-
-## Roadmap and releases
-
-You can see a rough development roadmap in the [Milestones](https://github.com/kimai/kimai/milestones) sections.
-It is open for changes and input from the community, your [ideas and questions](https://github.com/kimai/kimai/issues) are welcome.
-
-Release versions will be created on a regular basis, every couple of weeks latest.
-Every code change, whether it's a new feature or a bugfix, will be done on the `main` branch.
-
-## Contributing
-
-You want to contribute to this repository? This is so great!
-The best way to start is to [open a new issue](https://github.com/kimai/kimai/issues) for bugs or feature requests or a [discussion](https://github.com/kimai/kimai/discussions) for questions, support and such.
-
-In case you want to contribute, but you wouldn't know how, here are some suggestions:
-
-- Spread the word: Please [write a testimonial for our Wall of love](https://love.kimai.org), vote for Kimai on any software platform, you can toot or tweet about it, share it on LinkedIn, Reddit and any other social media platform!
-- Answer questions: You know the answer to another user's problem? Share your knowledge.
-- Something can be done better? An essential feature is missing? Create a feature request.
-- Report bugs makes Kimai better for everyone.
-- You don't have to be programmer, the documentation and translation could always use some attention.
-- Sponsor the project: free software costs money to create!
-
-There is one simple rule in our "Code of conduct": Don't be an ass!
-
-### Credits
-
-Kimai is based on modern technologies and frameworks such as [PHP](https://www.php.net/),
-[Symfony](https://github.com/symfony/symfony) and [Doctrine](https://github.com/doctrine/),
-[Bootstrap](https://github.com/twbs/bootstrap) and [Tabler](https://tabler.io/),
-and [countless](composer.json) [others](package.json).
-
+<div class="markdown-heading" dir="auto"><h1 align="center" tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kimai - 时间追踪器</font></font></h1><a id="user-content-kimai---time-tracker" class="anchor" aria-label="永久链接：Kimai - 时间追踪器" href="#kimai---time-tracker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kimai 是一款专业级时间跟踪应用程序，免费且开源。它处理自由职业者以及拥有数十或数百用户的公司的用例。 Kimai 旨在跟踪您的项目时间，并附带许多高级功能，包括但不限于：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JSON API、发票、数据导出、多计时器和打卡打卡模式、标记、多用户 - 多时区 - 多语言（</font></font><a href="https://hosted.weblate.org/projects/kimai/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现有超过 30 种翻译！）、通过 SAML/LDAP/数据库进行身份验证、带有 TOTP 的双因素身份验证（2FA）、可定制的角色和团队权限、响应式设计、用户/客户/项目特定费率、高级搜索和过滤、金钱和时间预算、高级报告、</font></font></a><font style="vertical-align: inherit;"></font><a href="https://www.kimai.org/store/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font><font style="vertical-align: inherit;">
+等等。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本</font></font></h3><a id="user-content-versions" class="anchor" aria-label="永久链接：版本" href="#versions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kimai 现有</font><font style="vertical-align: inherit;">两个</font></font><a href="https://www.kimai.org/documentation/versions.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本：</font></font></a><font style="vertical-align: inherit;"></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/kimai/kimai"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本 2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 当前的稳定版本 (PHP 8.1+)</font></font></li>
+<li><a href="https://github.com/kimai/kimai/tree/1.x"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本 1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 自 2023 年中期起停产 (PHP 7.4)</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本 1，它不会再获得任何更新！</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></h3><a id="user-content-links" class="anchor" aria-label="永久链接： 链接" href="#links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.kimai.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首页</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— Kimai 项目主页</font></font></li>
+<li><a href="https://www.kimai.org/blog/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— 阅读最新消息</font></font></li>
+<li><a href="https://www.kimai.org/documentation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— 了解如何使用 Kimai</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></h3><a id="user-content-requirements" class="anchor" aria-label="永久链接：要求" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP 8.1.3 最低</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MariaDB 或 MySQL</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络服务器和子域名（不支持子目录）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP</font><font style="vertical-align: inherit;">扩展</font><font style="vertical-align: inherit;">：</font></font><code>gd</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，，，，，，，，，</font></font><code>intl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&ZeroWidthSpace;</font></font><code>json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&ZeroWidthSpace;</font><font style="vertical-align: inherit;">&ZeroWidthSpace;</font><font style="vertical-align: inherit;">&ZeroWidthSpace;</font><font style="vertical-align: inherit;">&ZeroWidthSpace;</font></font><code>mbstring</code><font style="vertical-align: inherit;"></font><code>pdo</code><font style="vertical-align: inherit;"></font><code>tokenizer</code><font style="vertical-align: inherit;"></font><code>xml</code><font style="vertical-align: inherit;"></font><code>xsl</code><font style="vertical-align: inherit;"></font><code>zip</code></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持 PHP 8.2 和 8.3。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="固定链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.kimai.org/documentation/installation.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机设置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 使用 Git 和 Composer</font></font></li>
+<li><a href="https://hub.docker.com/r/kimai/kimai2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 由@tobybatch 容器化</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还有以下文档：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.kimai.org/documentation/developers.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员设置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 在您的本地计算机上</font></font></li>
+<li><a href="https://www.kimai.org/documentation/installation.html#shared-hosting" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享主机</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">——最不受欢迎的选择</font></font></li>
+<li><a href="https://www.kimai.org/documentation/synology.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Synology</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 您可以尝试托管 Docker 版本</font></font></li>
+<li><a href="https://www.kimai.org/documentation/installation.html#hosting-and-1-click-installations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一键式安装程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— 托管环境</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不想托管 Kimai，您可以使用</font><font style="vertical-align: inherit;">它的</font></font><a href="https://www.kimai.cloud/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云版本。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新 Kimai</font></font></h3><a id="user-content-updating-kimai" class="anchor" aria-label="永久链接：更新 Kimai" href="#updating-kimai"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.kimai.org/documentation/updates.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新 Kimai</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> — 获取最新版本</font></font></li>
+<li><a href="/kimai/kimai/blob/main/UPGRADING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— 版本特定步骤</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件</font></font></h3><a id="user-content-plugins" class="anchor" aria-label="永久链接：插件" href="#plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.kimai.org/store/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件市场</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">— 在这里找到现有的插件</font></font></li>
+<li><a href="https://www.kimai.org/documentation/developers.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">——如何创建插件</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图和版本</font></font></h2><a id="user-content-roadmap-and-releases" class="anchor" aria-label="永久链接：路线图和版本" href="#roadmap-and-releases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/kimai/kimai/milestones"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在“里程碑”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分中查看粗略的开发路线图</font><font style="vertical-align: inherit;">。它对社区的更改和输入开放，</font><font style="vertical-align: inherit;">欢迎您</font></font><a href="https://github.com/kimai/kimai/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出想法和问题。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布版本将定期创建，最晚每隔几周创建一次。每个代码更改，无论是新功能还是错误修复，都将在</font></font><code>main</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分支上完成。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您想为这个存储库做出贡献吗？这太棒了！最好的开始方式是</font><font style="vertical-align: inherit;">针对错误或功能请求</font></font><a href="https://github.com/kimai/kimai/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出一个新问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或者针对问题、支持等</font></font><a href="https://github.com/kimai/kimai/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行讨论。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想做出贡献，但不知道如何做，这里有一些建议：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传播信息：请</font></font><a href="https://love.kimai.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我们的爱心墙写一篇感言</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在任何软件平台上为 Kimai 投票，您可以鸣叫或发推文，在 LinkedIn、Reddit 和任何其他社交媒体平台上分享！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答问题：您知道其他用户问题的答案吗？分享您的知识。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有什么可以做得更好的吗？缺少了一项基本功能？创建功能请求。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告错误让 Kimai 对每个人来说都更好。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不必是程序员，文档和翻译总是需要注意的。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助项目：免费软件需要花钱来创建！</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的“行为准则”中有一个简单的规则：不要做傻事！</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h3><a id="user-content-credits" class="anchor" aria-label="永久链接：学分" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kimai 基于现代技术和框架，例如</font></font><a href="https://www.php.net/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://github.com/symfony/symfony"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Symfony</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/doctrine/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Doctrine</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://github.com/twbs/bootstrap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bootstrap</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://tabler.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tabler</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><a href="/kimai/kimai/blob/main/composer.json"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无数</font></font></a> <a href="/kimai/kimai/blob/main/package.json"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他技术</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和框架。</font></font></p>
+</article></div>
